@@ -1,6 +1,6 @@
 {
+  "name": "react1",
   "homepage": "https://Mithun-rs.github.io/react-2/",
-  "name": "react2",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,6 +11,7 @@
     "preview": "vite preview",
     "predeploy":"npm run build",
     "deploy":"gh-pages -d dist"
+
   },
   "dependencies": {
     "react": "^19.0.0",
