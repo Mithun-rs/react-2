@@ -1,0 +1,40 @@
+.con {
+    text-align: center;
+
+    font-weight: bold;
+    padding: 15px;
+    color: rgb(13, 10, 10);
+    border-radius: 10px;
+    width:100px;
+    margin: 20px auto;
+    margin-left:500px;
+    margin-top:-100px;
+    
+  }
+  
+  p {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    font-weight: 500;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 8px;
+    width: 320px;
+    margin: 10px auto;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+     margin-top: -50px;
+  }
+  
+ 
+  p a {
+    color: #ff5733;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  p a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,8 @@
+.container h1,h3,h4{
+display: flex;
+justify-content: center;
+}
+.container h4{
+    font-weight: normal;
+    margin-top: 10px;
+}

@@ -1,0 +1,70 @@
+
+.head {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #000101;
+    color: white;
+    border-radius: 10px;
+    width: 290px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  .ser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  
+  .ser input,
+  .qure input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.3s ease-in-out;
+  }
+  
+  .ser input:focus,
+  .qure input:focus {
+    border-color: #070708;
+  }
+  
+  
+  .qure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  
+  .qure button {
+    width: 130px;
+    padding: 10px;
+    background-color: #030303;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+   margin-left: -25px;
+   
+  }
+  
+  .qure button:hover {
+    background-color: #ffffff;
+    color: black;
+    border-radius: 2px bold;
+  }
+  

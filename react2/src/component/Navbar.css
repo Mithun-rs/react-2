@@ -1,0 +1,42 @@
+.active{
+    background-color:blue;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    position: sticky;
+    top: 0;
+    background-color: black;
+}
+nav ul {
+display: flex;
+
+
+}
+nav .tittle{
+    font-size: larger;
+    margin:1rem;
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    padding:0.5rem;
+    margin-left:200px;
+    margin-right: 10px;
+    border-radius:0.5rem;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color: white;
+}
+nav ul li a:hover{
+    background-color: aliceblue;
+    color: black;
+}
