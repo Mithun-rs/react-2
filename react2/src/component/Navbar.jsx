@@ -1,11 +1,14 @@
 import React from 'react'
 import {Link } from 'react-router-dom'
 import "./Navbar.css"
+
+const navigate = useNavigate();
+
+
 const Navbar = () => {
   return (
     <nav>
-        <Link to="/" className='tittle'>FOODIE</Link>
-         <ul>
+  <h1 className="title" onClick={() => navigate("/")}>FOODIE</h1>         <ul>
             <li>
             <Link to="/about">About</Link>
             </li>
